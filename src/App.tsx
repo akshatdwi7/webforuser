@@ -318,45 +318,49 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <TrendingUp className="w-5 h-5 text-white" />
+              <div className="w-20 h-20 rounded-lg flex items-center justify-center">
+                <img
+                  src="/images/logo.png"
+                  alt="Screeno Logo"
+                  className="w-25 h-25 object-contain"
+                />
               </div>
-              <span className="text-xl font-bold text-gray-900">Screeno</span>
+              <span className="text-xl font-thin text-black-900 ">Screeno</span>
             </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
               <a
                 href="#features"
-                className="text-gray-600 hover:text-blue-600 transition-colors font-medium"
+                className="text-gray-600 hover:text-blue-600 transition-colors font-thin"
               >
                 Features
               </a>
               <a
                 href="#screenshots"
-                className="text-gray-600 hover:text-blue-600 transition-colors font-medium"
+                className="text-gray-600 hover:text-blue-600 transition-colors font-thin"
               >
                 Screenshots
               </a>
               <a
                 href="#use-cases"
-                className="text-gray-600 hover:text-blue-600 transition-colors font-medium"
+                className="text-gray-600 hover:text-blue-600 transition-colors font-thin"
               >
                 Use Cases
               </a>
               <a
                 href="#testimonials"
-                className="text-gray-600 hover:text-blue-600 transition-colors font-medium"
+                className="text-gray-600 hover:text-blue-600 transition-colors font-thin"
               >
                 Reviews
               </a>
               <a
                 href="#pricing"
-                className="text-gray-600 hover:text-blue-600 transition-colors font-medium"
+                className="text-gray-600 hover:text-blue-600 transition-colors font-thin"
               >
                 Pricing
               </a>
-              <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-lg hover:shadow-lg transition-all duration-300 flex items-center space-x-2 font-medium">
+              <button className="bg-purple-300 text-black px-6 py-2.5 rounded-lg hover:bg-blue-300 hover:shadow-lg transition-all duration-300 flex items-center space-x-2 font-medium">
                 <Download className="w-4 h-4" />
                 <span>Download</span>
               </button>
@@ -383,7 +387,7 @@ function App() {
                   href="#features"
                   className="text-gray-600 hover:text-blue-600 transition-colors font-medium"
                 >
-                  Features
+                  Featuressss
                 </a>
                 <a
                   href="#screenshots"
@@ -409,9 +413,9 @@ function App() {
                 >
                   Pricing
                 </a>
-                <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-lg hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2 w-full font-medium">
+                <button className="bg-purple-200 text-purple-900 px-6 py-2.5 rounded-lg hover:bg-blue-300 hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2 w-full font-medium">
                   <Download className="w-4 h-4" />
-                  <span>Download</span>
+                  <span>Downloadiii</span>
                 </button>
               </div>
             </div>
