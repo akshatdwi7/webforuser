@@ -320,7 +320,7 @@ function App() {
             <div className="flex items-center space-x-2">
               <div className="w-20 h-20 rounded-lg flex items-center justify-center">
                 <img
-                  src="/images/logo.png"
+                  src="/logo.png"
                   alt="Screeno Logo"
                   className="w-25 h-25 object-contain"
                 />
